@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --softorange:#FFB964;
+    --darkorange:#FA7453;
+    --cyan:#66E2DC;
+    --white:#FCFAF9;
+    --black:#191826;
+}
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-top: 40px;
+}
+.creebi{
+    width: 281.405px;
+height: 480px;
+flex-shrink: 0;
+position: absolute;
+display: flex;
+flex-direction: column;
+top: -40px;
+right: 0;
+z-index: -1;
+
+}
+.wre1, .wre2{
+    width: 281.405px;
+height: 281.405px;
+flex-shrink: 0;
+border-radius: 281.405px;
+opacity: 0.1532;
+filter: blur(67.95704650878906px);
+right:-100px;
+z-index: -1;
+}
+.img1{
+    cursor: pointer;
+}
+.img2{
+    display: none;
+}
+.wre1{
+    background-color: var(--cyan);
+    opacity: 0.2825;
+    margin-top: -100px;
+    border-radius: 281.405px;
+opacity: 0.2825;
+background: #40FFF6;
+filter: blur(67.95704650878906px);
+}
+.wre2{
+    background-color: var(--darkorange);
+    margin-top: -70px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 375px;
+    height: 1500px;
+margin-left: 50%;
+transform: translateX(-50%);
+
+}
+.text{
+    margin-top: 65px;
+    width: 327px;
+height: 320px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-left: 50%;
+transform: translateX(-50%);
+margin-top: -300px;
+}
+.text1{
+    color: var(--black);
+font-family: 'IBM Plex Sans';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -0.455px;
+}
+.text2{
+    color: var(--black);
+font-family: 'IBM Plex Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.ooo{
+    width: 375px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--black);
+margin-left: 50%;
+transform: translateX(-50%);
+margin-top: 166px;
+display: flex;
+padding: 0 47px 0 48px;
+}
+
+.two{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+border-radius: 78px;
+background: var(--softorange);
+}.sigma{
+    width: 140px;
+height: 210px;
+flex-shrink: 0;
+border-radius: 100px 100px 0px 100px;
+background:var(--cyan);
+margin-top: 70px;
+}
+.zeda{
+    position: relative;
+    width: 208.972px;
+    height: 430px;
+    margin: -93px -24px 12px -251px;
+}
+.witeli{
+    width: 375px;
+height: 546px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--darkorange);
+position: relative;
+margin: 387px 1px 0 -262px; 
+padding: 48px 37px;
+}
+h1{
+    color: #FCFAF9;
+font-family: 'IBM Plex Sans';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+}
+h2{
+    color: #FCFAF9;
+font-family: 'IBM Plex Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+margin-top: 12px;
+}
+h3{
+    color: #FCFAF9;
+font-family: 'IBM Plex Sans';
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 80% */
+margin-top: 36px;
+}
+span{
+    color: #FCFAF9;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+letter-spacing: -0.2px;
+}
+button{
+    cursor: pointer;
+    width: 296px;
+height: 61px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #191826;
+color: #FCFAF9;
+text-align: center;
+font-family: 'IBM Plex Sans';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+margin-top: 32px;
+transition: all 0.5s;
+}
+.btn2{
+    border-radius: 12px;
+background: #FCFAF9;
+color: var(--black);
+margin-top: 16px;
+}
+footer{
+    margin-top: 63px;
+    margin-left: 24px;
+}
+
+.all{
+    width: 327px;
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+.mail{
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.logoes{
+    margin-top: 64px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+
+.btn1:hover{
+background-color: var(--cyan);
+}
+.btn2:hover{
+    background-color: var(--softorange);
+}
+.ragac{
+    display: none;
+}
+.logos:hover{
+text-decoration: underline;
+}
